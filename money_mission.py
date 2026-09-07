@@ -9,9 +9,9 @@ import os
 from datetime import datetime, date
 
 # ── CUSTOMIZE THESE ───────────────────────────────────────────────────────────
-GOAL = 25000                          # Your goal amount in dollars
-GOAL_DATE = date(2026, 12, 31)        # The date you want to hit your goal
-START_DATE = date(2026, 1, 1)         # The date you started tracking
+GOAL = 110,000                          # Your goal amount in dollars
+GOAL_DATE = date(2026, 11, 05)        # The date you want to hit your goal
+START_DATE = date(2026, 08, 21)         # The date you started tracking
 # ─────────────────────────────────────────────────────────────────────────────
 
 DATA_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "money_mission_data.json")
