@@ -11,7 +11,7 @@ Provider will give Customer access to an early version of RunwayZero and may pro
 The pilot begins on the agreed start date and continues for 30 days unless the parties agree otherwise in writing.
 
 ## 3. Fee
-Customer will pay the agreed pilot fee stated in the signature block. Unless otherwise agreed, fees are exclusive of applicable taxes and are non-refundable once the pilot begins.
+The pilot fee is **USD $250** for the 30-day term, unless the parties agree otherwise in writing. Fees are exclusive of applicable taxes and are non-refundable once the pilot begins.
 
 ## 4. Customer data
 Customer should not provide confidential banking credentials or highly sensitive personal information. Provider will only use information supplied for the purpose of delivering and improving the pilot.
@@ -35,7 +35,7 @@ Either party may terminate the pilot on 7 days' written notice. Sections intende
 This Agreement is governed by New Zealand law and the parties submit to the non-exclusive jurisdiction of the New Zealand courts.
 
 ## 11. Entire agreement
-This Agreement and any written order form or email confirming the pilot fee and start date form the entire agreement for the pilot and may be amended only in writing.
+This Agreement and any written order form or email confirming the pilot and start date form the entire agreement for the pilot and may be amended only in writing.
 
 ### Signature block
 
@@ -46,7 +46,7 @@ Date: ____________________
 
 **Customer:** ____________________  
 Name / title: ____________________  
-Pilot fee: ____________________  
+Pilot fee: USD $250  
 Start date: ____________________  
 Signature: ____________________  
 Date: ____________________
