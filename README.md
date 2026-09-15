@@ -1,24 +1,25 @@
 # RunwayZero
 
-**Know your cash-out date in 30 seconds.**
+**Founder cash-runway and scenario-planning software.**
 
-RunwayZero is a tiny, privacy-first runway calculator for founders. It takes four inputs — cash, monthly revenue, monthly costs and expected revenue growth — and returns monthly burn, simple runway, an estimated cash-out date and a growth-adjusted view.
+RunwayZero now has two layers:
 
-## Why
+- `index.html` — free 30-second runway calculator.
+- `app.html` — RunwayZero Pro MVP with 12–24 month forecasting, downside/base/upside scenarios, local save, CSV export and a board-ready print view.
 
-Early-stage founders frequently need a fast answer to one question: **how long do we have?** Existing workflows often start with spreadsheets, accounting exports or bank connections. RunwayZero is intentionally the opposite: open the page, type four numbers, get an answer.
+## Positioning
 
-## MVP
+RunwayZero Pro is deliberately smaller and faster than full accounting software. It answers the founder question: **what happens to our cash next if revenue, costs or hiring change?**
 
-- Zero signup
-- Zero backend
-- Zero bank connection
-- Local-only browser storage
-- Monthly burn calculation
-- Simple runway calculation
-- Estimated cash-out date
-- Growth-adjusted runway simulation
-- Mobile-friendly static site
+## Planned commercial model
+
+- Pro: **USD $99/month**
+- Annual: **USD $999/year**
+- Target users: founders, small startup finance teams, fractional CFOs and accelerators.
+
+## Privacy
+
+The MVP is local-first: company inputs stay in the browser and no bank connection is required.
 
 ## Run locally
 
@@ -28,19 +29,11 @@ No build step is required.
 python3 -m http.server 8000
 ```
 
-Then open `http://localhost:8000`.
-
-## Product direction
-
-The free calculator is the wedge. The next product layer is a lightweight founder-finance workspace with scenario comparison, runway alerts, shared board/investor views and optional integrations.
-
-## Business model hypothesis
-
-Free calculator → paid founder workspace → accelerator / investor portfolio plans.
+Then open `http://localhost:8000/app.html`.
 
 ## Status
 
-MVP / design-partner stage. No revenue or traction claims are made.
+Working MVP / design-partner stage. No revenue or traction claims are made.
 
 ## Founder
 
@@ -48,4 +41,4 @@ Kira Klein, software engineer and founder of Klein Consulting Ltd, New Zealand.
 
 ## Disclaimer
 
-RunwayZero is a planning tool and does not provide accounting, financial, investment, tax or legal advice.
+RunwayZero is planning software and does not provide accounting, financial, investment, tax or legal advice.
