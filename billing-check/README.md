@@ -4,9 +4,11 @@ Working local CSV billing reconciliation software by **Klein Consulting Ltd**.
 
 Compare billable usage with flat per-unit prices and net invoice lines. Export potential underbilling, potential overbilling, missing rates and unmatched records. This is a self-service early release, not a managed audit or a native Stripe integration.
 
-## Start
+## Download and start
 
-Download Klein-Billing-Check.html, save it locally, and open it in a current desktop browser. Select **Try example data** for a complete worked example. No installation, account or network access is needed for analysis. Download all three example CSV files from **Data format** and replace their example rows with your own records.
+[Download Klein-Billing-Check.html](https://github.com/kiraklein/money-mission-terminal/raw/refs/heads/main/billing-check/dist/Klein-Billing-Check.html)
+
+Save the downloaded HTML file locally and open it in a current desktop browser. Select **Try example data** for a complete worked example. No installation, account or network access is needed for analysis. Download all three example CSV files from **Data format** and replace their example rows with your own records.
 
 ## Data contract
 
@@ -32,9 +34,12 @@ Files remain in browser memory until cleared or the page closes. No analytics, e
 
 ## Purchase
 
-US$49 once for a business licence for version 1.x. Evaluate before purchase. See LICENCE.md; no managed audit, enterprise certification or promised savings. Seven-day refund on request. Contact: kiravanklein@gmail.com.
+[Buy a business licence — US$49 once](https://buy.stripe.com/14A8wP4SMgsf4ZPbyN0sU04)
+
+A perpetual internal-use licence for one business, covering the downloaded version 1.x. No subscription or activation key. Your Stripe receipt proves your licence. Evaluate the software before purchase using the download above.
+
+Read the [licence and seven-day refund terms](LICENCE.md). This release does not include a managed audit, enterprise certification, direct Stripe import or promised savings. Support and refund requests: kiravanklein@gmail.com.
 
 ## Development
 
 npm test runs meaningful financial/CSV edge cases. npm run build creates self-contained HTML from the engine, UI and shell. No third-party runtime dependencies.
-

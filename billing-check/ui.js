@@ -22,5 +22,4 @@ $('run').addEventListener('click',async()=>{resetReport();if(!$('ack').checked){
 $('clear').addEventListener('click',()=>{for(const k of Object.keys(inputFiles)){inputFiles[k]=null;$(k).value='';$(k+'-name').textContent='No file selected';}$('ack').checked=false;isExample=false;resetReport();$('load-status').textContent='Files and results cleared from this page.';});
 $('export').addEventListener('click',()=>{if(currentReport)download('klein-billing-findings'+(isExample?'-example':'')+'.csv',KleinBilling.reportCSV(currentReport));});$('print').addEventListener('click',()=>{if(currentReport)window.print();});
 for(const b of document.querySelectorAll('[data-template]'))b.addEventListener('click',()=>download('klein-'+b.dataset.template+'-example.csv',samples[b.dataset.template]));
-const checkoutURL='CHECKOUT_URL_PENDING';if(checkoutURL.startsWith('https://buy.stripe.com/')){$('checkout').href=checkoutURL;$('checkout').target='_blank';$('checkout').rel='noopener noreferrer';$('checkout').textContent='Buy business licence — US$49';}
-
+const checkoutURL='https://buy.stripe.com/14A8wP4SMgsf4ZPbyN0sU04';if(checkoutURL.startsWith('https://buy.stripe.com/')){$('checkout').href=checkoutURL;$('checkout').target='_blank';$('checkout').rel='noopener noreferrer';$('checkout').textContent='Buy business licence — US$49';}
