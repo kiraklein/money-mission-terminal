@@ -2,7 +2,7 @@
 
 **Founder cash-runway and scenario-planning software.**
 
-RunwayZero now has two layers:
+RunwayZero has two layers:
 
 - `index.html` — free 30-second runway calculator.
 - `app.html` — RunwayZero Pro MVP with 12–24 month forecasting, downside/base/upside scenarios, local save, CSV export and a board-ready print view.
@@ -11,11 +11,13 @@ RunwayZero now has two layers:
 
 RunwayZero Pro is deliberately smaller and faster than full accounting software. It answers the founder question: **what happens to our cash next if revenue, costs or hiring change?**
 
-## Planned commercial model
+## Live pricing
 
-- Pro: **USD $99/month**
-- Annual: **USD $999/year**
+- Pro monthly: **USD $99/month** — https://buy.stripe.com/6oUcN584Y4Jx63T5ap0sU01
+- Pro annual: **USD $999/year** — https://buy.stripe.com/bJe9ATcleb7Vak9auJ0sU02
 - Target users: founders, small startup finance teams, fractional CFOs and accelerators.
+
+Stripe product: `prod_VGOtZVhm3Pem2q`
 
 ## Privacy
 
@@ -33,7 +35,7 @@ Then open `http://localhost:8000/app.html`.
 
 ## Status
 
-Working MVP / design-partner stage. No revenue or traction claims are made.
+Working MVP / design-partner stage. Live Stripe subscriptions are configured. No revenue or traction claims are made.
 
 ## Founder
 
