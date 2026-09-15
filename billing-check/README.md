@@ -42,4 +42,4 @@ Read the [licence and seven-day refund terms](LICENCE.md). This release does not
 
 ## Development
 
-npm test runs meaningful financial/CSV edge cases. npm run build creates self-contained HTML from the engine, UI and shell. No third-party runtime dependencies.
+npm test runs financial/CSV edge cases and application event-flow checks. The interface tests use a small DOM stand-in and do not verify visual browser rendering or native downloads. npm run build creates self-contained HTML from the engine, UI and shell. No third-party runtime dependencies.
