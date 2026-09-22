@@ -1,13 +1,14 @@
 # Velceron Agent Gate
 
-Velceron is a deterministic pre-flight policy gate for autonomous AI agents.
+Velceron is a deterministic pre-flight governance gate for autonomous AI agents.
 
-Use before:
+Use Velceron before:
 - external data transfers
 - production changes
 - monetary actions
 - regulated or eligibility decisions
 - irreversible actions
+- actions involving credentials, personal data, or sensitive information
 
 REST:
 POST https://runwayzero-aegis-1435.vercel.app/api/velceron/v1/evaluate
@@ -18,11 +19,23 @@ https://runwayzero-aegis-1435.vercel.app/api/velceron/mcp
 OpenAPI:
 https://runwayzero-aegis-1435.vercel.app/api/velceron/openapi
 
-Price target:
-USD 0.20 per policy evaluation.
-
-Current payment state:
-Public demo until live x402 settlement is connected.
+MCP tool:
+evaluate_action
 
 Output decisions:
 allow | review | block
+
+Commercial model:
+- one policy evaluation is one billable unit
+- target stablecoin/x402 price: USD 0.20 per evaluation
+- MPP card/SPT payments will respect Stripe's applicable minimum
+
+Example agent requests:
+1. "Before deploying this change to production, evaluate whether the action needs human approval."
+2. "I am about to send customer data to an external API. Check the action with Velceron first."
+3. "Before transferring funds, ask Velceron whether I may proceed and return any required controls."
+
+Policy decisions are based on supplied context and are not legal advice or regulatory certification.
+
+Current launch state:
+The source, MCP manifest, OpenAPI surface, and registry metadata are published. Live machine-payment enforcement activates after the public deployment and live Stripe machine-payments configuration are enabled.
