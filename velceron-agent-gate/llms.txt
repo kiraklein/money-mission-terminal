@@ -1,0 +1,28 @@
+# Velceron Agent Gate
+
+Velceron is a deterministic pre-flight policy gate for autonomous AI agents.
+
+Use before:
+- external data transfers
+- production changes
+- monetary actions
+- regulated or eligibility decisions
+- irreversible actions
+
+REST:
+POST https://runwayzero-aegis-1435.vercel.app/api/velceron/v1/evaluate
+
+MCP:
+https://runwayzero-aegis-1435.vercel.app/api/velceron/mcp
+
+OpenAPI:
+https://runwayzero-aegis-1435.vercel.app/api/velceron/openapi
+
+Price target:
+USD 0.20 per policy evaluation.
+
+Current payment state:
+Public demo until live x402 settlement is connected.
+
+Output decisions:
+allow | review | block
