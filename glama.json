@@ -1,0 +1,31 @@
+{
+  "$schema": "https://glama.ai/mcp/schemas/server.json",
+  "maintainers": ["kiraklein"],
+  "name": "Velceron Agent Gate",
+  "description": "Pre-flight governance gate for autonomous AI agents. Returns allow, review, or block with machine-readable reasons, required controls, audit metadata, and a per-evaluation billing unit.",
+  "repository": "https://github.com/kiraklein/money-mission-terminal",
+  "homepage": "https://github.com/kiraklein/money-mission-terminal/tree/main/velceron-agent-gate",
+  "license": "UNLICENSED",
+  "keywords": ["mcp","ai-agents","governance","policy","risk","audit","agent-safety","x402","machine-payments"],
+  "tools": [
+    {
+      "name": "evaluate_action",
+      "description": "Evaluate a proposed autonomous-agent action before execution. Returns allow, review, or block with risk reasons and required controls.",
+      "inputSchema": {
+        "type": "object",
+        "required": ["action"],
+        "properties": {
+          "action": {"type": "string"},
+          "destination": {"type": "string"},
+          "environment": {"type": "string"},
+          "data_categories": {"type": "array", "items": {"type": "string"}},
+          "jurisdiction": {},
+          "amount_usd": {"type": "number"},
+          "has_human_approval": {"type": "boolean"},
+          "reversible": {"type": "boolean"}
+        },
+        "additionalProperties": true
+      }
+    }
+  ]
+}

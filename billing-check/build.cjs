@@ -1,0 +1,3 @@
+const fs=require('node:fs');const path=require('node:path');
+const root=__dirname;const html=fs.readFileSync(path.join(root,'shell.html'),'utf8').replace('/* ENGINE_HERE */',()=>fs.readFileSync(path.join(root,'engine.cjs'),'utf8')).replace('/* APP_HERE */',()=>fs.readFileSync(path.join(root,'ui.js'),'utf8'));
+fs.mkdirSync(path.join(root,'dist'),{recursive:true});fs.writeFileSync(path.join(root,'dist','Klein-Billing-Check.html'),html);fs.writeFileSync(path.join(root,'dist','index.html'),html);fs.copyFileSync(path.join(root,'delivery.html'),path.join(root,'dist','delivery.html'));console.log('Built self-contained HTML: '+Buffer.byteLength(html)+' bytes');

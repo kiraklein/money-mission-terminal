@@ -1,0 +1,19 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.kiraklein/velceron-agent-gate",
+  "title": "Velceron Agent Gate",
+  "description": "Pre-flight governance gate for autonomous agent actions. Returns allow, review, or block with machine-readable reasons and controls.",
+  "version": "0.2.0",
+  "websiteUrl": "https://github.com/kiraklein/money-mission-terminal/tree/main/velceron-agent-gate",
+  "repository": {
+    "url": "https://github.com/kiraklein/money-mission-terminal",
+    "source": "github",
+    "subfolder": "velceron-agent-gate"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://runwayzero-aegis-1435.vercel.app/api/velceron/mcp"
+    }
+  ]
+}
